@@ -148,7 +148,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script>
-const members=[{name:'黃鈺棠',att:4},{name:'戴靜茹',att:4},{name:'蘇啓宏',att:4},{name:'蔡奕章',att:3},{name:'蘇新證',att:3},{name:'李重廷',att:3},{name:'王喜樂',att:3},{name:'張俊彥',att:3},{name:'黃少寰',att:2},{name:'廖偉宏',att:1},{name:'陳立楷',att:1},{name:'賴嘉騏',att:1},{name:'蔡辰昊',att:1},{name:'王鈺翔',att:1},{name:'林家榆',att:1},{name:'魏佑丞',att:1},{name:'蔡秀吉',att:0},{name:'張修語',att:0},{name:'張譽鐙',att:0},{name:'羅向遠',att:0}];
+const members=[{name:'黃鈺棠',att:4},{name:'戴靜茹',att:4},{name:'蘇啓宏',att:4},{name:'蔡奕章',att:3},{name:'蘇新證',att:3},{name:'李重廷',att:3},{name:'王喜樂',att:3},{name:'張俊彥',att:3},{name:'黃少寰',att:2},{name:'廖偉宏',att:1},{name:'陳立楷',att:1},{name:'賴嘉騏',att:1},{name:'蔡辰昊',att:1},{name:'王鈺翔',att:1},{name:'林家榆',att:1},{name:'魏佑丞',att:1},{name:'張修語',att:0},{name:'張譽鐙',att:0},{name:'羅向遠',att:0}];
 const total=4;
 const pcts=members.map(m=>Math.round(m.att/total*100));
 const colors=pcts.map(p=>p===100?'#185FA5':p>=75?'#1D9E75':p>=50?'#EF9F27':p>0?'#E24B4A':'#B4B2A9');
